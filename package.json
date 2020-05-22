@@ -1,0 +1,30 @@
+{
+  "name": "wowstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danomanic/wowstats.git"
+  },
+  "author": "Daniel J. Pomfret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danomanic/wowstats/issues"
+  },
+  "homepage": "https://github.com/Danomanic/wowstats#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
